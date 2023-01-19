@@ -23,3 +23,19 @@
   list-style-position: inside;
   list-style-image: url("../img/icons/check-square.png");
 }
+
+@media screen and (max-width: 780px) {
+  .petinn-section.bring-your-pet {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .petinn-section.bring-your-pet img {
+    height: 350px;
+    position: absolute;
+    opacity: 0.2;
+  }
+  .petinn-section.bring-your-pet .description {
+    width: 80%;
+    padding: 24px;
+  }
+}
