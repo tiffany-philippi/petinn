@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Inn</title>
     <link rel="icon" type="image/png" href="img/logo/logo_v.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -28,6 +32,23 @@
         alt="menu"
       />
     </nav>
+
+    <div class="petinn-banner carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell">
+        <img
+          src="img/banner_1.png"
+          alt="Vai viajar? Deixe seu amiguinho com a Pet Inn"
+        />
+      </div>
+      <div class="carousel-cell">
+        <img src="img/banner_2.png" alt="Serviço de creche" />
+      </div>
+      <div class="carousel-cell">
+        <img src="img/banner_3.png" alt="Serviço de hospedagem" />
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
