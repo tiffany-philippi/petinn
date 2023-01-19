@@ -1,5 +1,5 @@
 @import "./variables.css";
-.petinn-header {
+.petinnHeader {
   background: var(--secondary-color);
   height: 62px;
   padding: 0 16px;
@@ -7,27 +7,28 @@
   justify-content: space-between;
 }
 
-.petinn-header__logo {
+.petinnHeader__logo {
   height: 90%;
 }
 
-.petinn-header .petinn-topnav {
+.petinnHeader .petinnHeader__topnav {
   width: 100%;
   position: absolute;
   right: 16px;
   top: 0;
   line-height: 4em;
   text-align: right;
+  z-index: 9;
 }
 
-.petinn-header .petinn-topnav li {
+.petinnHeader .petinnHeader__topnav li {
   display: inline-block;
   margin-left: 0.5em;
   list-style: none;
   margin-left: 0.5em;
 }
 
-.petinn-header .petinn-topnav li a {
+.petinnHeader .petinnHeader__topnav li a {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -37,26 +38,26 @@
   outline: 0;
 }
 
-.petinn-header .petinn-topnav li a:hover {
+.petinnHeader .petinnHeader__topnav li a:hover {
   color: var(--primary-color);
 }
 
-.petinn-header .topnav-icon {
+.petinnHeader .petinnHeader__topnav--icon {
   display: none;
 }
 
 @media screen and (max-width: 680px) {
-  .petinn-header .petinn-topnav {
+  .petinnHeader .petinnHeader__topnav {
     flex-direction: column;
   }
-  .petinn-header .petinn-topnav li {
+  .petinnHeader .petinnHeader__topnav li {
     display: none;
   }
-  .petinn-header .topnav-icon {
+  .petinnHeader .petinnHeader__topnav--icon {
     display: block;
     justify-self: end;
   }
-  .petinn-header .petinn-topnav.responsive {
+  .petinnHeader .petinnHeader__topnav.responsive {
     position: absolute;
     left: 0;
     background: rgba(71, 60, 56, 0.75);
@@ -67,18 +68,18 @@
     width: 100%;
     margin-top: 62px;
   }
-  .petinn-header .petinn-topnav.responsive .topnav-icon {
+  .petinnHeader .petinnHeader__topnav.responsive .petinnHeader__topnav--icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .petinn-header .petinn-topnav.responsive li {
+  .petinnHeader .petinnHeader__topnav.responsive li {
     text-align: center;
     float: none;
     padding: 0;
     display: inline;
   }
-  .petinn-header .petinn-topnav.responsive li a {
+  .petinnHeader .petinnHeader__topnav.responsive li a {
     display: block;
     padding: 0;
     text-align: left;

@@ -13,52 +13,62 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="petinn-header d-flex align-center space-between">
-      <img
-        class="petinn-header__logo"
-        src="img/logo/logo_v_white.png"
-        alt="pet inn logo"
-      />
-      <ul class="petinn-topnav">
-        <li class="fs-16"><a href="#">Serviços</a></li>
-        <li class="fs-16"><a href="#">Sobre nós</a></li>
-        <li class="fs-16"><a href="#">Reservas</a></li>
-        <li class="fs-16"><a href="#">Blog</a></li>
-      </ul>
-      <img
-        class="topnav-icon"
-        onclick="toggleMenu()"
-        src="img/icons/list.svg"
-        alt="menu"
-      />
-    </nav>
-
-    <div class="petinn-banner carousel" data-flickity='{ "wrapAround": true }'>
+    <header>
+      <nav class="petinnHeader d-flex align-center space-between">
+        <img
+          class="petinnHeader__logo"
+          src="img/logo/logo_v_white.png"
+          alt="pet inn logo"
+        />
+        <ul class="petinnHeader__topnav">
+          <li class="fs-16"><a href="#">Serviços</a></li>
+          <li class="fs-16"><a href="#">Sobre nós</a></li>
+          <li class="fs-16"><a href="#">Reservas</a></li>
+          <li class="fs-16"><a href="#">Blog</a></li>
+        </ul>
+        <img
+          class="petinnHeader__topnav--icon"
+          onclick="toggleMenu()"
+          src="img/icons/list.svg"
+          alt="menu"
+        />
+      </nav>
+    </header>
+    <div class="bannerGroup carousel" data-flickity='{ "wrapAround": true }'>
       <div class="carousel-cell">
         <img
+          class="bannerGroup__img"
           src="img/banner_1.png"
           alt="Vai viajar? Deixe seu amiguinho com a Pet Inn"
         />
       </div>
       <div class="carousel-cell">
-        <img src="img/banner_2.png" alt="Serviço de creche" />
+        <img
+          class="bannerGroup__img"
+          src="img/banner_2.png"
+          alt="Serviço de creche"
+        />
       </div>
       <div class="carousel-cell">
-        <img src="img/banner_3.png" alt="Serviço de hospedagem" />
+        <img
+          class="bannerGroup__img"
+          src="img/banner_3.png"
+          alt="Serviço de hospedagem"
+        />
       </div>
     </div>
 
-    <div class="petinn-section bring-your-pet">
+    <div class="petinnSection bringYourPet">
       <img src="img/baruk.png" alt="cachorro preto" />
 
-      <div class="description w-50">
-        <h2>O cuidado de quem ama!</h2>
-        <p class="petinn-description">
+      <div class="bringYourPet__description w-50">
+        <h2 class="fs-21">O cuidado de quem ama!</h2>
+        <p class="bringYourPet__description--text fs-16">
           Nada melhor do que saber que seu amiguinho está sendo bem cuidado e
           tendo a atenção que merece durante o dia, não é mesmo?
         </p>
-        <p class="text">Se o seu dia é corrido e</p>
-        <ul class="petinn-checklist">
+        <p class="text fs-16">Se o seu dia é corrido e</p>
+        <ul class="bringYourPet__checklist fs-16">
           <li>tem pouco tempo pra passeios</li>
           <li>
             não consegue dar carinho a cada olhar de Gato de Botas (e que não
@@ -67,13 +77,12 @@
           <li>ou até mesmo</li>
           <li>não trabalha home office</li>
         </ul>
-        <p>
+        <p class="fs-16">
           Então você tem o candidato ideal pra passar o dia com a gente aí do
           seu ladinho!
         </p>
       </div>
     </div>
-    <div class="petinn-section"></div>
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/main.js"></script>
