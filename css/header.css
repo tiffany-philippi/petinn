@@ -1,0 +1,88 @@
+@import "./variables.css";
+.petinn-header {
+  background: var(--secondary-color);
+  height: 62px;
+  padding: 0 16px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.petinn-header__logo {
+  height: 90%;
+}
+
+.petinn-header .petinn-topnav {
+  width: 100%;
+  position: absolute;
+  right: 16px;
+  top: 0;
+  line-height: 4em;
+  text-align: right;
+}
+
+.petinn-header .petinn-topnav li {
+  display: inline-block;
+  margin-left: 0.5em;
+  list-style: none;
+  margin-left: 0.5em;
+}
+
+.petinn-header .petinn-topnav li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  height: 3em;
+  line-height: 3em;
+  padding: 0 0.3em 0 0.3em;
+  outline: 0;
+}
+
+.petinn-header .petinn-topnav li a:hover {
+  color: var(--primary-color);
+}
+
+.petinn-header .topnav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .petinn-header .petinn-topnav {
+    flex-direction: column;
+  }
+  .petinn-header .petinn-topnav li {
+    display: none;
+  }
+  .petinn-header .topnav-icon {
+    display: block;
+    justify-self: end;
+  }
+  .petinn-header .petinn-topnav.responsive {
+    position: absolute;
+    left: 0;
+    background: rgba(71, 60, 56, 0.75);
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    width: 100%;
+    margin-top: 62px;
+  }
+  .petinn-header .petinn-topnav.responsive .topnav-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .petinn-header .petinn-topnav.responsive li {
+    text-align: center;
+    float: none;
+    padding: 0;
+    display: inline;
+  }
+  .petinn-header .petinn-topnav.responsive li a {
+    display: block;
+    padding: 0;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+  }
+}
