@@ -38,11 +38,11 @@ h5 {
   width: 100%;
 }
 
-.petinn-banner img {
+.bannerGroup__img {
   width: 100%;
 }
 
-.petinn-section {
+.petinnSection {
   width: 100%;
   display: flex;
   align-items: center;

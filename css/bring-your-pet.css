@@ -1,23 +1,26 @@
-.petinn-section.bring-your-pet {
+.petinnSection.bringYourPet {
   background-color: var(--primary-color);
   height: 350px;
 }
-.petinn-section.bring-your-pet img {
+.petinnSection.bringYourPet .bringYourPet__description {
+  padding-right: 24px;
+}
+.petinnSection.bringYourPet img {
   height: inherit;
   margin: 0 auto;
 }
-.petinn-section.bring-your-pet h2 {
+.petinnSection.bringYourPet h2 {
   text-transform: uppercase;
   margin-bottom: 23px;
 }
-.petinn-section.bring-your-pet .petinn-description {
+.petinnSection.bringYourPet .bringYourPet__description--text {
   font-weight: 500;
   margin-bottom: 23px;
 }
-.petinn-section.bring-your-pet .text {
+.petinnSection.bringYourPet .text {
   margin-bottom: 15px;
 }
-.petinn-section.bring-your-pet .petinn-checklist {
+.petinnSection.bringYourPet .bringYourPet__checklist {
   margin-bottom: 21px;
   margin-left: 10px;
   list-style-position: inside;
@@ -25,17 +28,17 @@
 }
 
 @media screen and (max-width: 780px) {
-  .petinn-section.bring-your-pet {
+  .petinnSection.bringYourPet {
     flex-direction: column-reverse;
     height: auto;
   }
-  .petinn-section.bring-your-pet img {
+  .petinnSection.bringYourPet img {
     height: 350px;
     position: absolute;
     opacity: 0.2;
   }
-  .petinn-section.bring-your-pet .description {
+  .petinnSection.bringYourPet .bringYourPet__description {
     width: 80%;
-    padding: 24px;
+    padding: 24px 0;
   }
 }
