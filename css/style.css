@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;600&display=swap");
 @import "./all.css";
 
 * {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: var(--black-color);
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg {
@@ -22,7 +31,20 @@
 .justify-end {
   justify-content: end;
 }
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
 
 .petinn-banner img {
   width: 100%;
+}
+
+.petinn-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
 }
