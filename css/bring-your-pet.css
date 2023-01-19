@@ -1,0 +1,41 @@
+.petinn-section.bring-your-pet {
+  background-color: var(--primary-color);
+  height: 350px;
+}
+.petinn-section.bring-your-pet img {
+  height: inherit;
+  margin: 0 auto;
+}
+.petinn-section.bring-your-pet h2 {
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.petinn-section.bring-your-pet .petinn-description {
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+.petinn-section.bring-your-pet .text {
+  margin-bottom: 15px;
+}
+.petinn-section.bring-your-pet .petinn-checklist {
+  margin-bottom: 21px;
+  margin-left: 10px;
+  list-style-position: inside;
+  list-style-image: url("../img/icons/check-square.png");
+}
+
+@media screen and (max-width: 780px) {
+  .petinn-section.bring-your-pet {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .petinn-section.bring-your-pet img {
+    height: 350px;
+    position: absolute;
+    opacity: 0.2;
+  }
+  .petinn-section.bring-your-pet .description {
+    width: 80%;
+    padding: 24px;
+  }
+}
