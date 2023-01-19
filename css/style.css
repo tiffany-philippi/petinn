@@ -22,3 +22,7 @@
 .justify-end {
   justify-content: end;
 }
+
+.petinn-banner img {
+  width: 100%;
+}
