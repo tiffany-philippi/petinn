@@ -1,0 +1,24 @@
+@import "./all.css";
+
+* {
+  font-family: "Roboto";
+  color: var(--black-color);
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background-image: var(--bg-image);
+}
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: end;
+}

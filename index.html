@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Inn</title>
     <link rel="icon" type="image/png" href="img/logo/logo_v.png" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="petinn-header d-flex align-center space-between">
+      <img
+        class="petinn-header__logo"
+        src="img/logo/logo_v_white.png"
+        alt="pet inn logo"
+      />
+      <ul class="petinn-topnav">
+        <li class="fs-16"><a href="#">Serviços</a></li>
+        <li class="fs-16"><a href="#">Sobre nós</a></li>
+        <li class="fs-16"><a href="#">Reservas</a></li>
+        <li class="fs-16"><a href="#">Blog</a></li>
+      </ul>
+      <img
+        class="topnav-icon"
+        onclick="toggleMenu()"
+        src="img/icons/list.svg"
+        alt="menu"
+      />
+    </nav>
+    <script src="js/main.js"></script>
+  </body>
 </html>
