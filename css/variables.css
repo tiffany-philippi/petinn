@@ -13,10 +13,12 @@
 
   --border-radius-small: 8px;
   --border-radius-medium: 15px;
-  --border-radius-large: 30px;
+  /* --border-radius-large: 30px; */
+
   --card-deposition-width: 585px;
   --card-deposition-width-sm: 280px;
   --card-deposition-width-md: 450px;
+  --card-blog-height: 202px;
 
   --font-size-xsmall: 10px;
   --font-size-small: 12px;
@@ -25,12 +27,4 @@
   --font-size-large: 18px;
   --font-size-subtitle: 21px;
   --font-size-title: 26px;
-}
-
-/* BODER-RADIUS */
-.br-medium-mixed {
-  border-radius: var(--border-radius-medium) 0;
-}
-.br-large-mixed {
-  border-radius: var(--border-radius-large) 0 0;
 }
