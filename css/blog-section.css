@@ -66,3 +66,43 @@
 .blogSection__content .blogSection__inRow .blogSection__card:first-child {
   margin-bottom: 12px;
 }
+
+@media screen and (max-width: 998px) {
+  .blogSection__content {
+    flex-direction: column;
+  }
+  .blogSection__content .blogSection__inCol,
+  .blogSection__content .blogSection__inRow {
+    width: 80%;
+    margin-bottom: 12px;
+  }
+  .blogSection__content .blogSection__inRow .blogSection__card {
+    margin-left: 0;
+  }
+}
+@media (min-width: 691px) and (max-width: 998px) {
+  .blogSection__content .blogSection__inCol .blogSection__card {
+    display: flex;
+    height: calc(var(--card-blog-height) - 12px);
+  }
+  .blogSection__content .blogSection__inCol .blogSection__card img {
+    height: 100%;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .blogSection__content .blogSection__inCol,
+  .blogSection__content .blogSection__inRow {
+    width: 90%;
+  }
+  .blogSection__content .blogSection__inCol .blogSection__card,
+  .blogSection__content .blogSection__inRow .blogSection__card {
+    flex-direction: column;
+    height: auto;
+  }
+  .blogSection__content .blogSection__inRow .blogSection__card img {
+    height: 45%;
+    width: 100%;
+  }
+}
