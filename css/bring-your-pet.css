@@ -1,6 +1,8 @@
 .petinnSection.bringYourPet {
   background-color: var(--primary-color);
   height: 350px;
+  display: flex;
+  align-items: center;
 }
 .petinnSection.bringYourPet .bringYourPet__description {
   padding-right: 24px;
