@@ -1,10 +1,12 @@
 @import "./variables.css";
 .petinnHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: var(--secondary-color);
   height: 62px;
   padding: 0 16px;
   max-width: 100%;
-  justify-content: space-between;
 }
 
 .petinnHeader__logo {
@@ -23,19 +25,21 @@
 
 .petinnHeader .petinnHeader__topnav li {
   display: inline-block;
-  margin-left: 0.5em;
+  margin-left: 8px;
   list-style: none;
-  margin-left: 0.5em;
+  margin-left: 8px;
 }
 
 .petinnHeader .petinnHeader__topnav li a {
   display: block;
-  color: #fff;
+  color: white;
   text-decoration: none;
-  height: 3em;
-  line-height: 3em;
-  padding: 0 0.3em 0 0.3em;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 5px;
   outline: 0;
+  font-size: var(--font-size-large);
+  font-weight: 700;
 }
 
 .petinnHeader .petinnHeader__topnav li a:hover {

@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;600;700&display=swap");
 
 :root {
   --black-color: #1d201f;
   --primary-color: #ffe98c;
   --secondary-color: #473c38;
+  --grey-color: #bfbfbf;
 
   --bg-image: url("../img/bg.png");
 
@@ -17,30 +18,13 @@
   --card-deposition-width-sm: 280px;
   --card-deposition-width-md: 450px;
 
+  --font-size-xsmall: 10px;
+  --font-size-small: 12px;
   --font-size-medium: 14px;
-}
-
-/* FONT-SIZE */
-.fs-10 {
-  font-size: 10px;
-}
-.fs-12 {
-  font-size: 12px;
-}
-.fs-14 {
-  font-size: 14px;
-}
-.fs-16 {
-  font-size: 16px;
-}
-.fs-18 {
-  font-size: 18px;
-}
-.fs-21 {
-  font-size: 21px;
-}
-.fs-26 {
-  font-size: 26px;
+  --font-size-default: 16px;
+  --font-size-large: 18px;
+  --font-size-subtitle: 21px;
+  --font-size-title: 26px;
 }
 
 /* BODER-RADIUS */

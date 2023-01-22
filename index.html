@@ -14,17 +14,17 @@
   </head>
   <body>
     <header>
-      <nav class="petinnHeader d-flex align-center space-between">
+      <nav class="petinnHeader">
         <img
           class="petinnHeader__logo"
           src="img/logo/logo_v_white.png"
           alt="pet inn logo"
         />
         <ul class="petinnHeader__topnav">
-          <li class="fs-16"><a href="#">Serviços</a></li>
-          <li class="fs-16"><a href="#">Sobre nós</a></li>
-          <li class="fs-16"><a href="#">Reservas</a></li>
-          <li class="fs-16"><a href="#">Blog</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Reservas</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
         <img
           class="petinnHeader__topnav--icon"
@@ -61,14 +61,14 @@
     <div class="petinnSection bringYourPet">
       <img src="img/baruk.png" alt="cachorro preto" />
 
-      <div class="bringYourPet__description w-50">
-        <h2 class="fs-21">O cuidado de quem ama!</h2>
-        <p class="bringYourPet__description--text fs-16">
+      <div class="bringYourPet__description">
+        <h2>O cuidado de quem ama!</h2>
+        <p class="bringYourPet__description--text">
           Nada melhor do que saber que seu amiguinho está sendo bem cuidado e
           tendo a atenção que merece durante o dia, não é mesmo?
         </p>
-        <p class="text fs-16">Se o seu dia é corrido e</p>
-        <ul class="bringYourPet__checklist fs-16">
+        <p class="text">Se o seu dia é corrido e</p>
+        <ul class="bringYourPet__checklist">
           <li>tem pouco tempo pra passeios</li>
           <li>
             não consegue dar carinho a cada olhar de Gato de Botas (e que não
@@ -77,7 +77,7 @@
           <li>ou até mesmo</li>
           <li>não trabalha home office</li>
         </ul>
-        <p class="fs-16">
+        <p class="text">
           Então você tem o candidato ideal pra passar o dia com a gente aí do
           seu ladinho!
         </p>
@@ -85,10 +85,10 @@
     </div>
 
     <div class="petinnSection reasonsToChooseUs">
-      <h2 class="petinnSection__title fs-26">
+      <h2 class="petinnSection__title">
         5 razões para escolher nossos serviços
       </h2>
-      <div class="reasonsToChooseUs__content d-flex align-center">
+      <div class="reasonsToChooseUs__content">
         <div class="reasonsToChooseUs__card">
           <div class="reasonsToChooseUs__photo">
             <img src="./img/boxes/box_1.jpg" alt="Cachorro dormindo" />
@@ -141,7 +141,7 @@
     </div>
 
     <div class="petinnSection depositionsGroup">
-      <h2 class="petinnSection__title fs-26">Depoimentos</h2>
+      <h2 class="petinnSection__title">Depoimentos</h2>
       <div
         class="carousel carousel__depositions"
         data-flickity='{ "wrapAround": true }'
@@ -209,6 +209,28 @@
       </div>
     </div>
 
+    <div class="petinnSection footerSection">
+      <div class="footerSection__content">
+        <img
+          src="./img/logo/logo_h_white.png"
+          alt="Pet Inn: Creche e hotel para cachorro"
+          class="footerSection__img"
+        />
+        <div class="footerSection__links">
+          <div class="footerSection__link">
+            <img src="./img/icons/instagram.png" alt="Instagram" />
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >petinnfloripa</a
+            >
+          </div>
+          <div class="footerSection__link">
+            <img src="./img/icons/calendar-date-fill.png" alt="Calendário" />
+            <a href="#">Quero reservar!</a>
+          </div>
+        </div>
+      </div>
+      <p>Florianópolis - SC 88034-000</p>
+    </div>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/main.js"></script>
   </body>

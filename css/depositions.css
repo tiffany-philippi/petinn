@@ -23,6 +23,7 @@
 }
 .depositionsGroup .depositionsGroup__card .depositionsGroup__photo p {
   font-family: var(--font-title);
+  font-size: var(--font-size-small);
   margin-top: 8px;
 }
 .depositionsGroup .depositionsGroup__card .depositionsGroup__photo img {
@@ -47,6 +48,7 @@
   align-self: flex-start;
 }
 .depositionsGroup__deposition .deposition__text {
+  font-size: var(--font-size-medium);
   align-self: center;
   padding: 8px;
 }
