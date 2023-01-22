@@ -1,0 +1,96 @@
+.depositionsGroup {
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 395px;
+}
+.depositionsGroup h2 {
+  padding: 24px 0;
+  text-align: center;
+}
+.depositionsGroup .carousel__depositions {
+  width: calc(var(--card-deposition-width) + 48px);
+  margin: 0 auto;
+}
+.depositionsGroup .depositionsGroup__card {
+  display: flex;
+  background-color: white;
+  width: var(--card-deposition-width);
+  padding: 24px;
+  margin: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: calc(100% - 96px);
+  overflow: hidden;
+}
+
+.depositionsGroup .depositionsGroup__card .depositionsGroup__photo {
+  padding: 0 24px;
+  text-align: center;
+}
+.depositionsGroup .depositionsGroup__card .depositionsGroup__photo p {
+  font-family: var(--font-title);
+  margin-top: 8px;
+}
+.depositionsGroup .depositionsGroup__card .depositionsGroup__photo img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  display: block;
+  border: 2px solid var(--secondary-color);
+}
+.depositionsGroup__deposition {
+  display: flex;
+  padding: 0 24px;
+  align-self: center;
+}
+.depositionsGroup__deposition img.deposition__commas {
+  align-self: flex-end;
+  width: 24px;
+}
+.depositionsGroup__deposition img.deposition__commas:first-child {
+  transform: rotate(180deg);
+  align-self: flex-start;
+}
+.depositionsGroup__deposition .deposition__text {
+  align-self: center;
+  padding: 8px;
+}
+
+@media screen and (max-width: 680px) {
+  .depositionsGroup {
+    height: auto;
+  }
+  .depositionsGroup .depositionsGroup__card {
+    flex-direction: column;
+    justify-content: center;
+    width: var(--card-deposition-width-md);
+  }
+  .depositionsGroup .carousel__depositions {
+    width: calc(var(--card-deposition-width-md) + 48px);
+    margin: 0 auto;
+  }
+  .depositionsGroup .depositionsGroup__card .depositionsGroup__photo img {
+    margin: 0 auto;
+  }
+  .depositionsGroup .depositionsGroup__card .depositionsGroup__photo p {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .depositionsGroup__deposition {
+    padding: 8px 44px 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .depositionsGroup .depositionsGroup__card {
+    width: var(--card-deposition-width-sm);
+    padding: 24px 8px;
+    margin: 24px 8px;
+  }
+  .depositionsGroup .carousel__depositions {
+    width: calc(var(--card-deposition-width-sm) + 28px);
+  }
+}
