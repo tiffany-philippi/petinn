@@ -8,6 +8,7 @@
   --border-radius-small: 8px;
   --border-radius-medium: 15px;
   --border-radius-large: 30px;
+  --card-deposition-width: 585px;
 }
 
 /* FONT-SIZE */
@@ -35,8 +36,8 @@
 
 /* BODER-RADIUS */
 .br-medium-mixed {
-  border-radius: var(--border-radius-medium) 0 var(--border-radius-medium) 0;
+  border-radius: var(--border-radius-medium) 0;
 }
 .br-large-mixed {
-  border-radius: var(--border-radius-large) 0 0 0;
+  border-radius: var(--border-radius-large) 0 0;
 }
