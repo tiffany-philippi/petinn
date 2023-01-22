@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;600&display=swap");
+
 :root {
   --black-color: #1d201f;
   --primary-color: #ffe98c;
@@ -5,10 +7,15 @@
 
   --bg-image: url("../img/bg.png");
 
+  --font-default: "Roboto", sans-serif;
+  --font-title: "Montserrat", sans-serif;
+
   --border-radius-small: 8px;
   --border-radius-medium: 15px;
   --border-radius-large: 30px;
   --card-deposition-width: 585px;
+  --card-deposition-width-sm: 280px;
+  --card-deposition-width-md: 450px;
 }
 
 /* FONT-SIZE */
