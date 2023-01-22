@@ -1,11 +1,6 @@
 .depositionsGroup {
-  width: 100%;
   background-color: var(--primary-color);
   height: 395px;
-}
-.depositionsGroup h2 {
-  padding: 24px 0;
-  text-align: center;
 }
 .depositionsGroup .carousel__depositions {
   width: calc(var(--card-deposition-width) + 48px);

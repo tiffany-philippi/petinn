@@ -43,7 +43,11 @@ h5 {
 
 .petinnSection {
   width: 100%;
-  display: flex;
-  align-items: center;
   margin-top: 50px;
+}
+.petinnSection__title {
+  padding: 24px 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
