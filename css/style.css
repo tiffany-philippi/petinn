@@ -7,40 +7,9 @@
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-title);
-}
-
-.bg {
-  background-image: var(--bg-image);
-}
-.d-flex {
-  display: flex;
-}
-.justify-between {
-  justify-content: space-between;
-}
-.align-center {
-  align-items: center;
-}
-.justify-end {
-  justify-content: end;
-}
-.w-50 {
-  width: 50%;
-}
-.w-100 {
-  width: 100%;
-}
-
 .bannerGroup__img {
   width: 100%;
 }
-
 .petinnSection {
   width: 100%;
   margin-top: 50px;
@@ -50,4 +19,5 @@ h5 {
   text-align: center;
   width: 80%;
   margin: 0 auto;
+  font-size: var(--font-size-title);
 }

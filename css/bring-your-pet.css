@@ -6,18 +6,25 @@
 }
 .petinnSection.bringYourPet .bringYourPet__description {
   padding-right: 24px;
+  width: 50%;
+}
+.petinnSection.bringYourPet .bringYourPet__description .text {
+  font-size: var(--font-size-default);
 }
 .petinnSection.bringYourPet img {
   height: inherit;
   margin: 0 auto;
 }
 .petinnSection.bringYourPet h2 {
+  font-family: var(--font-title);
+  font-size: var(--font-size-subtitle);
   text-transform: uppercase;
   margin-bottom: 23px;
 }
 .petinnSection.bringYourPet .bringYourPet__description--text {
   font-weight: 500;
   margin-bottom: 23px;
+  font-size: var(--font-size-default);
 }
 .petinnSection.bringYourPet .text {
   margin-bottom: 15px;
@@ -27,6 +34,7 @@
   margin-left: 10px;
   list-style-position: inside;
   list-style-image: url("../img/icons/check-square.png");
+  font-size: var(--font-size-default);
 }
 
 @media screen and (max-width: 780px) {
