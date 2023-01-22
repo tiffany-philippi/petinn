@@ -1,0 +1,68 @@
+.blogSection__content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Estilo em comum para os cards */
+.blogSection__content .blogSection__card {
+  border-radius: var(--border-radius-medium) 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.blogSection__content .blogSection__card img {
+  border-radius: var(--border-radius-medium) 0 0;
+  object-fit: cover;
+}
+
+.blogSection__content .blogSection__card img {
+  height: 45%;
+  width: 100%;
+  border-radius: var(--border-radius-medium) 0 0;
+  object-fit: cover;
+}
+
+.blogSection__content .blogSection__text {
+  padding: 24px;
+}
+
+.blogSection__content .blogSection__text h5 {
+  font-weight: 600;
+  font-family: var(--font-title);
+  margin-bottom: 16px;
+}
+.blogSection__content .blogSection__text p {
+  margin-bottom: 16px;
+  font-size: var(--font-size-medium);
+}
+
+/* Primeira coluna com 1 card */
+.blogSection__content .blogSection__inCol {
+  width: 40%;
+}
+.blogSection__content .blogSection__inCol .blogSection__card {
+  height: calc(var(--card-blog-height) * 2 - 12px);
+}
+.blogSection__content .blogSection__inCol .blogSection__card img {
+  height: 45%;
+  width: 100%;
+}
+
+/* Segunda coluna com 2 cards */
+.blogSection__content .blogSection__inRow {
+  width: 60%;
+}
+
+.blogSection__content .blogSection__inRow .blogSection__card img {
+  width: 45%;
+  height: 100%;
+}
+.blogSection__content .blogSection__inRow .blogSection__card {
+  height: calc(var(--card-blog-height) - 12px);
+  margin-left: 50px;
+  display: flex;
+}
+.blogSection__content .blogSection__inRow .blogSection__card:first-child {
+  margin-bottom: 12px;
+}
