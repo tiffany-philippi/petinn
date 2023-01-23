@@ -4,11 +4,17 @@
   margin: 0 auto;
   width: 80%;
 }
-
+.blogSection__content a {
+  text-decoration: none;
+}
+.blogSection__content a:hover .blogSection__card {
+  transform: scale(1.05);
+}
 /* Estilo em comum para os cards */
 .blogSection__content .blogSection__card {
   border-radius: var(--border-radius-medium) 0;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: 300ms all;
 }
 
 .blogSection__content .blogSection__card img {
@@ -66,7 +72,11 @@
 .blogSection__content .blogSection__inRow .blogSection__card:first-child {
   margin-bottom: 12px;
 }
-
+@media (min-width: 1224px) {
+  .blogSection__content {
+    width: 1010px;
+  }
+}
 @media screen and (max-width: 998px) {
   .blogSection__content {
     flex-direction: column;

@@ -14,10 +14,18 @@
   width: 100%;
   margin-top: 50px;
 }
+.petinnSection.petinnSection--no-margin {
+  margin-top: 0;
+}
 .petinnSection__title {
   padding: 24px 0;
   text-align: center;
   width: 80%;
   margin: 0 auto;
   font-size: var(--font-size-title);
+}
+iframe {
+  margin: 0;
+  width: 100%;
+  position: inherit;
 }
