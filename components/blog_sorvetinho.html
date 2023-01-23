@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Inn</title>
+    <link rel="icon" type="image/png" href="../img/logo/logo_v.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="petinnHeader">
+        <img
+          class="petinnHeader__logo"
+          src="../img/logo/logo_v_white.png"
+          alt="Home"
+        />
+        <ul class="petinnHeader__topnav">
+          <li><a href="../index.html">Início</a></li>
+          <li>
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >Reservas</a
+            >
+          </li>
+          <li><a href="../index.html#blog">Blog</a></li>
+        </ul>
+        <img
+          class="petinnHeader__topnav--icon"
+          onclick="toggleMenu()"
+          src="../img/icons/list.svg"
+          alt="menu"
+        />
+      </nav>
+    </header>
+
+    <div class="blogPage">
+      <div class="blogPage__content">
+        <h1 class="blogPage__title">3 receitas de sorvetinho para o seu pet</h1>
+        <img
+          class="blogPage__content__img"
+          src="../img/blog/slashio-photography-UlNLCTqXW2U-unsplash.jpg"
+          alt="Cachorro deitado"
+        />
+        <p class="blogPage__text">
+          É tentador dividir aquele sorvete bem saboroso e refrescante com nosso
+          pet, não é mesmo? Pelo excesso de corante, gordura e açúcar, oferecer
+          sorvete para cachorro não é recomendável. Além de diarreias e dores
+          abdominais, a guloseima pode causar intoxicações e alterações
+          gastrintestinais nos cães.
+        </p>
+        <p class="blogPage__text">
+          A boa notícia é que você pode preparar o picolé do seu amiguinho numa
+          versão bem mais saudável, algumas até para vocês degustarem da mesma
+          receita.
+        </p>
+
+        <span class="blogPage__item">
+          <h4 class="blogPage__text blogPage__text--bold">
+            1. Sorvete de frutas
+          </h4>
+          <p class="blogPage__text">
+            Feito só com água e frutas da preferência do cão, é uma opção
+            refrescante e saudável para aliviar o calor.
+          </p>
+
+          <span class="blogPage__section">
+            <h5 class="blogPage__text blogPage__text--bold">Ingredientes:</h5>
+            <ul class="blogPage__text">
+              <li>
+                Fruta da escolha do cão (dentro da
+                <a href="./blog_fruta.html"> lista permitida</a>)
+              </li>
+              <li>Pequena medida de água</li>
+            </ul>
+
+            <h5 class="blogPage__text blogPage__text--bold">
+              Modo de preparo:
+            </h5>
+            <ul class="blogPage__text">
+              <li>
+                Depois de lavar e de descascar as frutas, corte tudo em pedaços.
+                Leve-as ao liquidificador, acrescentando água o suficiente só
+                para bater mais facilmente.
+              </li>
+              <li>
+                Com a mistura pronta, coloque-a em copinhos descartáveis ou
+                mesmo em forminhas de gelo. Leve ao congelador.
+              </li>
+            </ul>
+          </span>
+        </span>
+
+        <span class="blogPage__item">
+          <h4 class="blogPage__text blogPage__text--bold">2. Picolé cremoso</h4>
+          <p class="blogPage__text">
+            Opção cremosa e geladinha para cachorro! Feito com iogurte e a fruta
+            favorita do seu pet.
+          </p>
+
+          <span class="blogPage__section">
+            <h5 class="blogPage__text blogPage__text--bold">Ingredientes:</h5>
+            <ul class="blogPage__text">
+              <li>200g de iogurte sem açúcar e sem lactose</li>
+              <li>200g da fruta da escolha do pet</li>
+            </ul>
+
+            <h5 class="blogPage__text blogPage__text--bold">
+              Modo de preparo:
+            </h5>
+            <ul class="blogPage__text">
+              <li>
+                Leve ao liquidificador a fruta lavada e cortada em pedaços,
+                acrescente o iogurte e bata até obter uma mistura homogênea.
+              </li>
+              <li>
+                Coloque o conteúdo em copinhos descartáveis ou forminhas de
+                picolé, e leve ao congelador.
+              </li>
+            </ul>
+          </span>
+        </span>
+
+        <span class="blogPage__item blogPage__margin">
+          <h4 class="blogPage__text blogPage__text--bold">
+            3. Almoço ou sobremesa?
+          </h4>
+          <p class="blogPage__text">
+            Feito só com ração úmida (
+            <span class="text-red">quantidade diária oferecida ao pet</span>
+            ), essa opção é sugerida para pets que não gostam ou não comem
+            frutas.
+          </p>
+
+          <span class="blogPage__section">
+            <h5 class="blogPage__text blogPage__text--bold">Ingredientes:</h5>
+            <ul class="blogPage__text">
+              <li>Ração úmida de sua preferência</li>
+            </ul>
+
+            <h5 class="blogPage__text blogPage__text--bold">
+              Modo de preparo:
+            </h5>
+            <ul class="blogPage__text">
+              <li>
+                Coloque a ração úmida em um copinho descartável ou em forminhas
+                de gelo. Leve ao congelador.
+              </li>
+            </ul>
+          </span>
+        </span>
+        <p class="blogPage__text blogPage__text--bold">DICA EXTRA!</p>
+        <p class="blogPage__text">
+          Se quiser deixar as guloseimas ainda mais divertidas, utilize um
+          ossinho do tipo palito no lugar do tradicional palito de madeira.
+          Assim, você terá um autêntico picolé de frutas para cachorro.
+        </p>
+      </div>
+    </div>
+
+    <div class="petinnSection petinnSection--no-margin footerSection">
+      <div class="footerSection__content">
+        <img
+          src="../img/logo/logo_h_white.png"
+          alt="Pet Inn: Creche e hotel para cachorro"
+          class="footerSection__img"
+        />
+        <div class="footerSection__links">
+          <div class="footerSection__link">
+            <img src="../img/icons/instagram.png" alt="Instagram" />
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >petinnfloripa</a
+            >
+          </div>
+          <div class="footerSection__link">
+            <img src="../img/icons/calendar-date-fill.png" alt="Calendário" />
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >Quero reservar!</a
+            >
+          </div>
+        </div>
+      </div>
+      <p>Florianópolis - SC 88034-000</p>
+    </div>
+    <script src="../js/menu.js"></script>
+  </body>
+</html>
