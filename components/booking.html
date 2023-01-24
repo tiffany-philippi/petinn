@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Inn</title>
+    <link rel="icon" type="image/png" href="../img/logo/logo_v.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="petinnHeader">
+        <img
+          class="petinnHeader__logo"
+          src="../img/logo/logo_v_white.png"
+          alt="Home"
+        />
+        <ul class="petinnHeader__topnav">
+          <li><a href="../index.html">Início</a></li>
+          <li>
+            <a href="#" target="_blank">Reservas</a>
+          </li>
+          <li><a href="../index.html#blog">Blog</a></li>
+        </ul>
+        <img
+          class="petinnHeader__topnav--icon"
+          onclick="toggleMenu()"
+          src="../img/icons/list.svg"
+          alt="menu"
+        />
+      </nav>
+    </header>
+
+    <div class="bookingPage subpage">
+      <div class="bookingPage__content subpage__content">
+        <h1 class="subpage__title">Hora de reservar!</h1>
+        <img
+          class="bookingPage__content__img subpage__content__img"
+          src="../img/booking/clock.jpg"
+          alt="Relógio numa mesa"
+        />
+        <form>
+          <div class="bookingPage__form">
+            <div class="bookingPage__col">
+              <label for="service" class="bookingPage__label">
+                Escolha o serviço
+              </label>
+              <select name="service" id="service" class="bookingPage__select">
+                <option value="creche">Creche</option>
+                <option value="hospedagem">Hospedagem</option>
+              </select>
+            </div>
+            <div class="bookingPage__col">
+              <label for="petName" class="bookingPage__label">
+                Qual o nome do seu pet?
+              </label>
+              <input
+                type="text"
+                id="petName"
+                class="bookingPage__input"
+                placeholder="Digite o nome do seu pet"
+              />
+            </div>
+          </div>
+          <div class="bookingPage__form">
+            <div class="bookingPage__col">
+              <label for="service" class="bookingPage__label">
+                Data de check-in
+              </label>
+              <input type="date" class="bookingPage__input" id="checkin" />
+            </div>
+            <div class="bookingPage__col" id="checkoutDiv">
+              <label for="service" class="bookingPage__label">
+                Data de check-out
+              </label>
+              <input type="date" id="checkout" class="bookingPage__input" />
+            </div>
+          </div>
+
+          <div class="bookingPage__button">
+            <button type="submit" id="submit" onclick="booking()">
+              Reservar!
+            </button>
+          </div>
+        </form>
+        <span id="message"></span>
+      </div>
+    </div>
+
+    <div class="petinnSection petinnSection--no-margin footerSection">
+      <div class="footerSection__content">
+        <img
+          src="../img/logo/logo_h_white.png"
+          alt="Pet Inn: Creche e hotel para cachorro"
+          class="footerSection__img"
+        />
+        <div class="footerSection__links">
+          <div class="footerSection__link">
+            <img src="../img/icons/instagram.png" alt="Instagram" />
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >petinnfloripa</a
+            >
+          </div>
+          <div class="footerSection__link">
+            <img src="../img/icons/calendar-date-fill.png" alt="Calendário" />
+            <a href="https://www.instagram.com/petinnfloripa/" target="_blank"
+              >Quero reservar!</a
+            >
+          </div>
+        </div>
+      </div>
+      <p>Florianópolis - SC 88034-000</p>
+    </div>
+    <script src="../js/menu.js"></script>
+    <script src="../js/booking.js"></script>
+  </body>
+</html>
