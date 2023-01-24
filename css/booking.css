@@ -1,0 +1,86 @@
+.bookingPage .bookingPage__label {
+  display: block;
+}
+.bookingPage .bookingPage__form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bookingPage .bookingPage__form .bookingPage__col {
+  width: 40%;
+}
+.bookingPage .bookingPage__form .bookingPage__select,
+.bookingPage .bookingPage__form .bookingPage__input {
+  border-radius: var(--border-radius-small);
+  border-color: var(--grey-color);
+  color: var(--black-color);
+  font-size: var(--font-size-default);
+  margin-top: 10px;
+}
+
+.bookingPage .bookingPage__form .bookingPage__select {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+}
+
+.bookingPage .bookingPage__form .bookingPage__input {
+  cursor: pointer;
+  width: calc(100% - 16px);
+  height: 38px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 8px;
+}
+#checkoutDiv {
+  display: none;
+}
+.bookingPage .bookingPage__button {
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+.bookingPage .bookingPage__button button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: 0;
+  border-radius: var(--border-radius-small);
+  width: 300px;
+  height: 40px;
+  font-size: var(--font-size-large);
+  font-weight: 600;
+}
+.bookingPage .bookingPage__button button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+#message {
+  display: none;
+  width: 100%;
+  padding: 16px;
+  background: rgba(255, 233, 140, 0.5);
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 680px) {
+  .bookingPage .bookingPage__form {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .bookingPage .bookingPage__form .bookingPage__col {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .bookingPage .bookingPage__button button {
+    width: 100%;
+  }
+  #message {
+    width: auto;
+  }
+}
